@@ -18,8 +18,8 @@ ALTER TABLE `user` ADD UNIQUE (`email`);
 ALTER TABLE `user` ADD UNIQUE (`phone`);
 
 
-DROP TABLE IF EXISTS `new`;
-CREATE TABLE `new` (
+DROP TABLE IF EXISTS `Picture`;
+CREATE TABLE `Picture` (
   `id` bigint(20) NOT NULL AUTO_INCREMENT,
   `title` varchar(50) DEFAULT NULL ,
   `content` varchar(255) DEFAULT NULL,
